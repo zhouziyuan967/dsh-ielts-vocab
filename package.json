@@ -1,0 +1,31 @@
+{
+  "name": "dsh-ielts-vocab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IELTS vocabulary: daily words and spaced-repetition reviews in a quiet background layer.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "words.js",
+    "store.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "license": "MIT"
+}

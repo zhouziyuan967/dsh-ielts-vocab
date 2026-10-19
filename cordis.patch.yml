@@ -1,0 +1,4 @@
+# Insert the IELTS vocabulary host + client bundle into this profile.
+- insert:
+    - id: dsh-ielts-vocab
+      name: dsh-ielts-vocab

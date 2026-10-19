@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="IELTS vocabulary">
+  <rect width="64" height="64" rx="15" fill="#1f6feb"/>
+  <path d="M12 45h40" stroke="#9cc3ff" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" fill="#ffffff">Aa</text>
+  <circle cx="49" cy="17" r="3" fill="#9cc3ff"/>
+</svg>
